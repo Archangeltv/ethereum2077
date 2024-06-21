@@ -126,7 +126,6 @@ html {
   font-size: 100%;
 }
 
-
 /**
  * Basic styles for links
  */
@@ -165,17 +164,15 @@ button {
   cursor: pointer;
 }
 
-
 details {
   padding: 1rem;
-  font-family: 'manrope-bold', sans-serif;
+  font-family: "avenir-bold", sans-serif;
 
   &[open] {
     height: auto;
     background-color: #f1f3f9; /* Background color when details is open */
     padding: 1rem;
   }
-  
 }
 
 summary {
@@ -187,13 +184,12 @@ summary {
   font-weight: 700;
   font-size: 1.2rem;
   border-radius: 1rem;
-  font-family: 'manrope-bold', sans-serif;
+  font-family: "avenir-bold", sans-serif;
   letter-spacing: -1px;
-
 
   &::before {
     content: "\002B"; /* Unicode character for plus sign */
-    font-size: 1.20rem;
+    font-size: 1.2rem;
     font-weight: 700;
     position: absolute;
     top: 50%;
@@ -202,7 +198,6 @@ summary {
     color: var(--semantic-blue-default-hover); /* Change the color as desired */
   }
 }
-
 
 details[open] summary::before {
   content: "\02212"; /* Unicode character for minus sign */
