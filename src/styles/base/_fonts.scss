@@ -31,3 +31,33 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* All avenir font face  */
+@font-face {
+  font-family: "avenir-extrabold";
+  src: url("/src/fonts/AvenirLTStd-Heavy.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "avenir-bold";
+  src: url("/src/fonts/AvenirLTStd-Book.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "avenir-medium";
+  src: url("/src/fonts/AvenirLTStd-Medium.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "avenir-regular";
+  src: url("/src/fonts/AvenirLTStd-Light.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
